@@ -3,7 +3,7 @@ import IconLink from "./IconLink";
 import { Box } from "@mui/material";
 
 function PortfolioBlock(props) {
-  const { image, live, source, title } = props;
+  const { image, live, title } = props;
   return (
     <Box
       display={"flex"}
