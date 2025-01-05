@@ -5,6 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 import { singlePage } from "../info/Info";
+import zlimg from "../img/zl.jpg";
 
 const links = [
   {
@@ -69,8 +70,26 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
               onClick={() => setActive(link.active)}
               className={Style.link}
             >
-              {!link.type && <p style={{ padding: "0.5rem 0" }}>{link.name}</p>}
-              {link.type && <h1>{link.name}</h1>}
+              {!link.type && (
+                <p style={{ padding: "0.5rem 0", textTransform: "capitalize" }}>
+                  {link.name}
+                </p>
+              )}
+              {link.type && (
+                <Box
+                  alt={"image of developer"}
+                  style={{ background: info.gradient }}
+                  component={"img"}
+                  src={zlimg}
+                  width={{ xs: "7vh", md: "10vh" }}
+                  height={{ xs: "7vh", md: "10vh" }}
+                  borderRadius={"50%"}
+                  p={"0.3rem"}
+                  mb={{ xs: "1rem", sm: 0 }}
+                  mt={{ xs: "1rem", md: "0.5rem" }}
+                  // mr={{ xs: 0, md: "2rem" }}
+                />
+              )}
             </Link>
           </Box>
         ))}

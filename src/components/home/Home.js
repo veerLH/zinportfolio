@@ -54,8 +54,8 @@ export default function Home({ innerRef }) {
         </Box>
         <Box
           display={"flex"}
-          gap={"1.5rem"}
-          justifyContent={"center"}
+          gap={"2rem"}
+          justifyContent={{ xs: "center", md: "flex-start" }}
           fontSize={{ xs: "2rem", md: "2.5rem" }}
         >
           {info.socials.map((social, index) => (

@@ -3,7 +3,6 @@ import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -46,7 +45,7 @@ export const info = {
     },
     {
       emoji: "💼",
-      text: "Backend Developer at EWhale Software Solutions",
+      text: "Developer at EWhale Software Company",
     },
     {
       emoji: "📧",
@@ -55,30 +54,30 @@ export const info = {
   ],
   socials: [
     {
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/mgzinlynn.htun.35",
       icon: "fa fa-facebook",
       label: "facebook",
     },
     {
-      link: "https://instagram.com",
+      link: "https://www.instagram.com/mgzinlynn/profilecard/?igsh=MXJ3ZzdvcmQ2dHhvMw==",
       icon: "fa fa-instagram",
       label: "instagram",
     },
     {
-      link: "https://github.com",
+      link: "https://github.com/zinlynnhtun",
       icon: "fa fa-github",
       label: "github",
     },
     {
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/zin-lynn-htun-435614159/",
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
-    {
-      link: "https://twitter.com",
-      icon: "fa fa-twitter",
-      label: "twitter",
-    },
+    // {
+    //   link: "https://twitter.com",
+    //   icon: "fa fa-twitter",
+    //   label: "twitter",
+    // },
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
@@ -119,34 +118,28 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Project 1",
-      live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      title: "Better HR",
+      live: "https://betterhr.io/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
-      title: "Project 2",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock2,
-    },
-    {
-      title: "Project 3",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock3,
-    },
-    {
-      title: "Project 4",
-      live: "https://paytonpierce.dev",
+      title: "Ewhale Software Solutions",
+      live: "https://www.ewhalemyanmar.com/",
       source: "https://github.com/paytonjewell",
       image: mock4,
     },
     {
-      title: "Project 5",
-      live: "https://paytonpierce.dev",
+      title: "Ministry of Construction",
+      live: "https://construction.gov.mm/",
       source: "https://github.com/paytonjewell",
-      image: mock5,
+      image: mock3,
+    },
+    {
+      title: "Sonic Star Travel and Tours",
+      live: "https://www.sonicstartravel.com/",
+      source: "https://github.com/paytonjewell",
+      image: mock2,
     },
   ],
 };
